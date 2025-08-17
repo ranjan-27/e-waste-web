@@ -269,9 +269,9 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Support
 
 For support and questions:
-- Email: info@ewastemanager.com
-- Phone: +91 98765 43210
-- Address: Mumbai, Maharashtra, India
+- Email: hitk@ewastemanager.com
+- Phone: +91 9976584792
+- Address: Kolkata, West Bengal, India
 
 ## Future Enhancements
 
