@@ -1,0 +1,461 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart E-Waste Management System</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <i class="fas fa-recycle"></i>
+                <span>E-Waste Manager</span>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#contact" class="nav-link">Contact</a>
+                <button class="nav-btn" id="login-btn">Login</button>
+                <button class="nav-btn primary" id="signup-btn">Sign Up</button>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Smart E-Waste Management System
+                </h1>
+                <p class="hero-subtitle">
+                    Revolutionizing electronic waste disposal with QR tracking, smart categorization, 
+                    and compliance reporting for a sustainable future.
+                </p>
+                <div class="hero-buttons">
+                    <button class="btn primary" id="get-started-btn">Get Started</button>
+                    <button class="btn secondary" id="learn-more-btn">Learn More</button>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="hero-graphic">
+                    <i class="fas fa-qrcode"></i>
+                    <i class="fas fa-recycle"></i>
+                    <i class="fas fa-chart-line"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Key Features</h2>
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-database"></i>
+                    </div>
+                    <h3>Centralized Management Portal</h3>
+                    <p>Log, track, and manage e-waste disposal by department, category, age, and more.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-qrcode"></i>
+                    </div>
+                    <h3>QR Code Tracking System</h3>
+                    <p>Every e-waste item is tagged with a unique QR code for complete traceability.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>Smart Categorization</h3>
+                    <p>Automated classification of items as recyclable, reusable, or hazardous.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>Compliance Reporting</h3>
+                    <p>Auto-generated reports for environmental compliance and CPCB regulations.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>User Engagement</h3>
+                    <p>Sustainability campaigns, challenges, and green scoreboards for participation.</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3>Data Analytics</h3>
+                    <p>Comprehensive insights on trends, recovery rates, and environmental impact.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facts Section -->
+    <section class="facts">
+        <div class="container">
+            <h2 class="section-title">E-Waste Facts</h2>
+            <div class="facts-grid">
+                <div class="fact-card">
+                    <div class="fact-number">53.6</div>
+                    <div class="fact-unit">Million Tons</div>
+                    <div class="fact-description">Global e-waste generated in 2019</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">17.4</div>
+                    <div class="fact-unit">%</div>
+                    <div class="fact-description">E-waste properly collected and recycled</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">$57</div>
+                    <div class="fact-unit">Billion</div>
+                    <div class="fact-description">Value of raw materials in e-waste</div>
+                </div>
+                <div class="fact-card">
+                    <div class="fact-number">2.5</div>
+                    <div class="fact-unit">Million Tons</div>
+                    <div class="fact-description">E-waste generated in India annually</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Our System</h2>
+                    <p>
+                        Our Smart E-Waste Management System addresses the critical challenge of electronic waste 
+                        disposal in residential complexes, academic campuses, and corporate environments. 
+                        With advanced QR code tracking, automated categorization, and comprehensive compliance 
+                        reporting, we ensure responsible e-waste management while promoting environmental sustainability.
+                    </p>
+                    <p>
+                        The system integrates with CPCB and E-Waste (Management) Rules, providing complete 
+                        traceability and automated reporting for environmental compliance. Our user engagement 
+                        features encourage participation through sustainability campaigns and green scoreboards.
+                    </p>
+                </div>
+                <div class="about-image">
+                    <div class="about-graphic">
+                        <i class="fas fa-leaf"></i>
+                        <i class="fas fa-globe"></i>
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>hitk@ewastemanager.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+91 9976584792</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Kolkata, West Bengal, India</span>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="btn primary">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>E-Waste Manager</h3>
+                    <p>Leading the way in sustainable e-waste management and environmental protection.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#features">Features</a>
+                    <a href="#about">About</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <a href="#">E-Waste Collection</a>
+                    <a href="#">Recycling</a>
+                    <a href="#">Compliance</a>
+                    <a href="#">Training</a>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 E-Waste Manager. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Login Modal -->
+    <div class="modal" id="login-modal">
+        <div class="modal-content">
+            <span class="close" id="close-login">&times;</span>
+            <h2>Login</h2>
+            <form id="login-form">
+                <div class="form-group">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" required>
+                </div>
+                <button type="submit" class="btn primary">Login</button>
+            </form>
+            <p class="form-footer">
+                Don't have an account? <a href="#" id="switch-to-signup">Sign up</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Signup Modal -->
+    <div class="modal" id="signup-modal">
+        <div class="modal-content">
+            <span class="close" id="close-signup">&times;</span>
+            <h2>Sign Up</h2>
+            <form id="signup-form">
+                <div class="form-group">
+                    <label for="signup-username">Username</label>
+                    <input type="text" id="signup-username" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-email">Email</label>
+                    <input type="email" id="signup-email" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-password">Password</label>
+                    <input type="password" id="signup-password" required>
+                </div>
+                <div class="form-group">
+                    <label for="signup-role">Role</label>
+                    <select id="signup-role" required>
+                        <option value="">Select Role</option>
+                        <option value="user">User</option>
+                        <option value="admin">Admin</option>
+                        <option value="vendor">Vendor</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="signup-department">Department</label>
+                    <select id="signup-department" required>
+                        <option value="">Select Department</option>
+                        <option value="Computer Science">Computer Science</option>
+                        <option value="Electronics">Electronics</option>
+                        <option value="Mechanical">Mechanical</option>
+                        <option value="Civil">Civil</option>
+                        <option value="Administration">Administration</option>
+                        <option value="Other">Other</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn primary">Sign Up</button>
+            </form>
+            <p class="form-footer">
+                Already have an account? <a href="#" id="switch-to-login">Login</a>
+            </p>
+        </div>
+    </div>
+
+    <!-- Dashboard Modal -->
+    <div class="modal" id="dashboard-modal">
+        <div class="modal-content dashboard-content">
+            <span class="close" id="close-dashboard">&times;</span>
+            <div class="dashboard-header">
+                <h2>E-Waste Dashboard</h2>
+                <div class="user-info">
+                    <span id="dashboard-username"></span>
+                    <button class="btn secondary" id="logout-btn">Logout</button>
+                </div>
+            </div>
+            <div class="dashboard-tabs">
+                <button class="tab-btn active" data-tab="overview">Overview</button>
+                <button class="tab-btn" data-tab="report">Report E-Waste</button>
+                <button class="tab-btn" data-tab="track">Track Items</button>
+                <button class="tab-btn" data-tab="campaigns">Campaigns</button>
+                <button class="tab-btn" data-tab="leaderboard">Leaderboard</button>
+            </div>
+            <div class="dashboard-content">
+                <!-- Overview Tab -->
+                <div class="tab-content active" id="overview-tab">
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <h3>Total Items</h3>
+                            <div class="stat-number" id="total-items">0</div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Total Weight</h3>
+                            <div class="stat-number" id="total-weight">0 kg</div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Green Score</h3>
+                            <div class="stat-number" id="green-score">0</div>
+                        </div>
+                        <div class="stat-card">
+                            <h3>Recycled Items</h3>
+                            <div class="stat-number" id="recycled-items">0</div>
+                        </div>
+                    </div>
+                    <div class="chart-container">
+                        <canvas id="category-chart"></canvas>
+                    </div>
+                </div>
+
+                <!-- Report E-Waste Tab -->
+                <div class="tab-content" id="report-tab">
+                    <div class="form-instructions">
+                        <h3>Report E-Waste Item</h3>
+                        <p>Help us manage electronic waste responsibly. Fill in the details below to report your e-waste item. You'll earn green score points for each item reported!</p>
+                    </div>
+                    <form id="ewaste-form">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ewaste-name">Item Name</label>
+                                <input type="text" id="ewaste-name" placeholder="e.g., Dell Laptop, iPhone 12, etc." required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ewaste-category">Category</label>
+                                <select id="ewaste-category" required>
+                                    <option value="">Select Category</option>
+                                    <option value="computers">Computers</option>
+                                    <option value="mobile_devices">Mobile Devices</option>
+                                    <option value="lab_equipment">Lab Equipment</option>
+                                    <option value="batteries">Batteries</option>
+                                    <option value="accessories">Accessories</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ewaste-type">Type</label>
+                                <select id="ewaste-type" required>
+                                    <option value="">Select Type</option>
+                                    <option value="recyclable">Recyclable</option>
+                                    <option value="reusable">Reusable</option>
+                                    <option value="hazardous">Hazardous</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="ewaste-age">Age (years)</label>
+                                <input type="number" id="ewaste-age" min="0" required>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ewaste-weight">Weight (kg)</label>
+                                <input type="number" id="ewaste-weight" min="0.1" step="0.1" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ewaste-department">Department</label>
+                                <select id="ewaste-department" required>
+                                    <option value="">Select Department</option>
+                                    <option value="Computer Science">Computer Science</option>
+                                    <option value="Electronics">Electronics</option>
+                                    <option value="Mechanical">Mechanical</option>
+                                    <option value="Civil">Civil</option>
+                                    <option value="Administration">Administration</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="ewaste-building">Building</label>
+                                <input type="text" id="ewaste-building" placeholder="e.g., Main Building" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="ewaste-floor">Floor</label>
+                                <input type="text" id="ewaste-floor" placeholder="e.g., 2nd Floor" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="ewaste-room">Room Number</label>
+                            <input type="text" id="ewaste-room" placeholder="e.g., Room 205" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="ewaste-description">Description</label>
+                            <textarea id="ewaste-description" rows="3" placeholder="Describe the condition, brand, model, etc." required></textarea>
+                        </div>
+                        <button type="submit" class="btn primary">Report E-Waste</button>
+                    </form>
+                </div>
+
+                <!-- Track Items Tab -->
+                <div class="tab-content" id="track-tab">
+                    <div class="search-section">
+                        <input type="text" id="search-item" placeholder="Search by Item ID or Name">
+                        <button class="btn primary" id="search-btn">Search</button>
+                    </div>
+                    <div class="items-list" id="items-list">
+                        <!-- Items will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Campaigns Tab -->
+                <div class="tab-content" id="campaigns-tab">
+                    <div class="campaigns-list" id="campaigns-list">
+                        <!-- Campaigns will be populated here -->
+                    </div>
+                </div>
+
+                <!-- Leaderboard Tab -->
+                <div class="tab-content" id="leaderboard-tab">
+                    <div class="leaderboard" id="leaderboard">
+                        <!-- Leaderboard will be populated here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
